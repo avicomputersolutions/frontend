@@ -3,7 +3,6 @@
 import React, { useRef, useEffect, useState } from 'react'
 import { useGLTF } from '@react-three/drei'
 import * as THREE from 'three'
-import { useFrame } from '@react-three/fiber'
 
 interface Props {
     modelPath: string

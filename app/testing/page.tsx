@@ -4,7 +4,7 @@
 import { useEffect } from "react";
 import { motion } from "framer-motion";
 import Lenis from "@studio-freight/lenis";
-import WhyChooseBinaryQubit from "../components/WhyChooseUsSection";
+
 
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";

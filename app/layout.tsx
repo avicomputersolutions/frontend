@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import Background from "./components/backgrounds/main";
+
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 
@@ -24,10 +24,10 @@ export default function RootLayout({
         className={`${inter.className} antialiased bg-neutral-950   `}
       >
 
-        <Navbar/>
+        <Navbar />
 
         {children}
-        <Footer/>
+        <Footer />
       </body>
     </html>
   );

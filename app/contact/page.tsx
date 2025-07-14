@@ -52,7 +52,7 @@ const ContactPage = () => {
                         transition={{ duration: 0.6, delay: 0.2 }}
                         className="text-zinc-300 text-center max-w-xl mx-auto mb-12"
                     >
-                        Have questions, ideas, or collaboration opportunities? We'd love to hear from you!
+                        Have questions, ideas, or collaboration opportunities? We&apos;d love to hear from you!
                     </motion.p>
 
                     {/* Info Cards */}

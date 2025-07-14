@@ -4,7 +4,7 @@
 import { useEffect } from "react";
 import { motion } from "framer-motion";
 import Lenis from "@studio-freight/lenis";
-import WhyChooseBinaryQubit from "../components/WhyChooseUsSection";
+
 
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
@@ -28,7 +28,7 @@ const CoursePage = () => {
 
   return (
     <main className="relative w-full h-full overflow-hidden">
-        <Navbar/>
+      <Navbar />
       {/* Full Page Background Video */}
       <video
         autoPlay
@@ -126,7 +126,7 @@ const CoursePage = () => {
           </motion.div>
         </section> */}
       </div>
-      <Footer/>
+      <Footer />
     </main>
   );
 };
