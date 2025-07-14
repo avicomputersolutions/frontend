@@ -3,12 +3,14 @@
 import { motion } from 'framer-motion';
 import Image from 'next/image';
 
+type CourseLevel = 'Beginner' | 'Intermediate' | 'Advanced';
+
 type CourseCardProps = {
     title: string;
     description: string;
     image: string;
     duration: string;
-    level: any;
+    level: CourseLevel;
     link: string;
 };
 
@@ -30,7 +32,7 @@ const CourseCard = ({
         initial="hidden"
         whileInView="visible"
         transition={{ duration: 0.8, delay: 0.25 }}
-        whileHover={{ scale: 1.03,resize:2.0 }}
+        whileHover={{ scale: 1.03, resize: 2.0 }}
         className="bg-zinc-950 hover:bg-white  text-white hover:text-black border border-zinc-950 rounded-2xl overflow-hidden shadow-md hover:shadow-purple-900/40 transition duration-300"
     >
         <a href={link} className="block h-full">
