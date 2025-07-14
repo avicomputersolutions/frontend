@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from 'react'
-import { easeIn, motion, useAnimation, useInView } from 'framer-motion'
+import {  motion, useAnimation, useInView } from 'framer-motion'
 interface Props {
     children: React.ReactNode;
     width?: "fit-content" | "100%";

@@ -2,8 +2,6 @@
 
 import { motion } from 'framer-motion';
 import Link from 'next/link';
-
-import StarsBackground from './backgrounds/main';
 import Reveal from './backgrounds/Reveal';
 
 const Hero = () => {
