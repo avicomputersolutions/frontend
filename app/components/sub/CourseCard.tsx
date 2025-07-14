@@ -12,11 +12,7 @@ type CourseCardProps = {
     link: string;
 };
 
-const levelColors = {
-    Beginner: 'bg-green-600',
-    Intermediate: 'bg-yellow-500',
-    Advanced: 'bg-red-500',
-};
+
 
 const CourseCard = ({
     title,
@@ -50,7 +46,7 @@ const CourseCard = ({
             <div className="p-5 flex flex-col justify-between h-[calc(100%-160px)]">
                 <div>
                     <div className="flex justify-between items-center mb-2 text-sm">
-                        <span className={`px-3 py-1 rounded-full text-white ${levelColors[level]}`}>
+                        <span className={`px-3 py-1 rounded-full text-white `}>
                             {level}
                         </span>
                         <span className="text-gray-400">{duration}</span>
