@@ -8,7 +8,7 @@ type CourseCardProps = {
     description: string;
     image: string;
     duration: string;
-    level: 'Beginner' | 'Intermediate' | 'Advanced';
+    level: string;
     link: string;
 };
 
