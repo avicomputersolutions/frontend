@@ -5,7 +5,7 @@ import Image from 'next/image';
 
 type CourseLevel = 'Beginner' | 'Intermediate' | 'Advanced';
 
-type CourseCardProps = {
+export type CourseCardProps = {
     title: string;
     description: string;
     image: string;

@@ -1,11 +1,11 @@
 'use client'
 import Reveal from "./backgrounds/Reveal";
-import CourseCard from "./sub/CourseCard";
+import CourseCard, { CourseCardProps } from "./sub/CourseCard";
 
 
 
 const CoursesSection = () => {
-    const courses = [
+    const courses:CourseCardProps[] = [
         {
             title: 'Full Stack MERN Development',
             description: 'Build industry-ready full stack apps using MongoDB, Express, React, and Node.js.',
