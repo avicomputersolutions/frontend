@@ -1,9 +1,10 @@
 'use client';
 
 import { CompanyLogos } from '@/constants';
-import { motion, useInView } from 'framer-motion';
-import { useRef } from 'react';
+import { motion } from 'framer-motion';
+
 import Reveal from './backgrounds/Reveal';
+import Image from 'next/image';
 
 const MarqueeRow = ({ reverse = false }: { reverse?: boolean }) => {
     return (
@@ -21,7 +22,7 @@ const MarqueeRow = ({ reverse = false }: { reverse?: boolean }) => {
             >
                 {CompanyLogos.map((src, i) => (
                     <div key={i} className="w-32 h-16 flex items-center justify-center ">
-                        <img
+                        <Image
                             src={src.Image}
                             alt={src.company_name}
                             width={src.width}
@@ -36,8 +37,7 @@ const MarqueeRow = ({ reverse = false }: { reverse?: boolean }) => {
 };
 
 const ExpertsMarqueeSection = () => {
-    const sectionRef = useRef(null);
-    const isInView = useInView(sectionRef, { once: true, margin: '-100px' });
+
 
     return (
         <section className=" text-white  rounded-xl mx-auto py-16  relative z-10">

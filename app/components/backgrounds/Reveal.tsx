@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from 'react'
-import {  motion, useAnimation, useInView } from 'framer-motion'
+import { motion, useAnimation, useInView } from 'framer-motion'
 interface Props {
     children: React.ReactNode;
     width?: "fit-content" | "100%";
@@ -9,6 +9,7 @@ const Reveal = ({ children, width = "fit-content" }: Props) => {
     const inView = useInView(ref, { once: true })
     const mainControl = useAnimation();
     const slideControl = useAnimation();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     useEffect(() => {
         if (inView) {
             mainControl.start("visible")

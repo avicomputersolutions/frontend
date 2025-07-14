@@ -1,6 +1,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
+import Image from 'next/image';
 
 const AboutSection = () => {
   return (
@@ -33,7 +34,7 @@ const AboutSection = () => {
             viewport={{ once: true }}
             className="relative w-full h-72 md:h-96 rounded-xl overflow-hidden shadow-lg shadow-purple-900/30"
           >
-            <img
+            <Image
               src="https://images.unsplash.com/photo-1665686302000-2517ba96b8e3?auto=format&fit=crop&w=800&q=80"
               alt="Team working at BinaryQubit"
               className="w-full h-full object-cover object-center"

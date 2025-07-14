@@ -64,7 +64,7 @@ const InstructorsSection = () => {
                             <h3 className="text-lg font-semibold">{instructor.name}</h3>
                             <p className="text-purple-400 text-sm mb-2">{instructor.role}</p>
                             <div className="mt-2">
-                                <img
+                                <Image
                                     src={instructor.companyLogo}
                                     alt="Company logo"
                                     className="h-6 object-contain"

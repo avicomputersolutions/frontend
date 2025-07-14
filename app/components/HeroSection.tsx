@@ -3,6 +3,7 @@
 import { motion } from 'framer-motion';
 import Link from 'next/link';
 import Reveal from './backgrounds/Reveal';
+import Image from 'next/image';
 
 const Hero = () => {
     return (
@@ -65,7 +66,7 @@ const Hero = () => {
                     className="w-full md:w-1/2 mt-10 md:mt-0 flex items-center justify-center"
                 >
                     {/* Replace with an image or animated SVG if you prefer */}
-                    <img
+                    <Image
                         src=" /mainIconsdark.svg"
                         alt="AI Learning Illustration"
                         className="w-[300px] md:w-full object-cover pointer-events-none "
