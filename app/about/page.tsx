@@ -1,9 +1,9 @@
 "use client";
 
 import { motion } from "framer-motion";
-import Image from "next/image";
+
 import CTA from "../components/sub/CTA";
-import AboutSection from "../components/AboutUsSection";
+
 import WhoWeAre from "./components/AboutusSection";
 import OurValues from "./components/values";
 import OurTeam from "./components/team";
@@ -62,14 +62,14 @@ const AboutPage = () => {
             {/* Our Vision */}
             <Section title="Our Vision">
                 <p className="text-center text-zinc-400 max-w-3xl mx-auto">
-                    We envision a world where anyone, regardless of background, can access high-quality, industry-aligned education and break into top tech careers. At BinaryQubit, we're building the tools, community, and opportunities to make that vision a reality.
+                    We envision a world where anyone, regardless of background, can access high-quality, industry-aligned education and break into top tech careers. At BinaryQubit, we&apos;re building the tools, community, and opportunities to make that vision a reality.
                 </p>
             </Section>
 
-            <OurTeam/>
-            
-            <OurValues/>
-           
+            <OurTeam />
+
+            <OurValues />
+
             <CTA />
 
         </main>
