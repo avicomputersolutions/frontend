@@ -5,28 +5,28 @@ import Image from 'next/image';
 
 const instructors = [
     {
-        name: 'Aditi Verma',
-        role: 'AI Researcher, Google',
-        image: '/instructors/aditi.png',
-        companyLogo: 'https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg',
+        name: 'Avinash Kumar',
+        role: 'Data Science Expert, IBM',
+        image: '/instructors/Avinash.png',
+        companyLogo: 'https://upload.wikimedia.org/wikipedia/commons/5/51/IBM_logo.svg',
     },
     {
-        name: 'Rahul Sharma',
-        role: 'Software Engineer, Microsoft',
-        image: '/instructors/rahul.png',
-        companyLogo: 'https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg',
+        name: 'Nandini Agrawal',
+        role: 'MERN Stack Expert, IBM',
+        image: '/instructors/trainer3.jpeg',
+        companyLogo: 'https://upload.wikimedia.org/wikipedia/commons/5/51/IBM_logo.svg',
     },
     {
-        name: 'Neha Patil',
-        role: 'Senior Data Scientist, Amazon',
-        image: '/instructors/neha.png',
+        name: 'Himanshu Arora',
+        role: 'Artificial Intelliegence Expert',
+        image: '/instructors/trainer2.jpeg',
         companyLogo: 'https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg',
     },
     {
-        name: 'Aman Kapoor',
-        role: 'Full Stack Developer, IBM',
-        image: '/instructors/aman.png',
-        companyLogo: 'https://upload.wikimedia.org/wikipedia/commons/5/51/IBM_logo.svg',
+        name: 'Rahul Kumar',
+        role: 'Cloud Expert, Google',
+        image: '/instructors/trainer4.jpeg',
+        companyLogo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/544px-Google_2015_logo.svg.png',
     },
 ];
 
@@ -57,8 +57,9 @@ const InstructorsSection = () => {
                                 <Image
                                     src={instructor.image}
                                     alt={instructor.name}
-                                    fill
-                                    className="object-cover"
+                                    width={500}
+                                    height={500}
+                                    className="w-full h-48 "
                                 />
                             </div>
                             <h3 className="text-lg font-semibold">{instructor.name}</h3>
@@ -67,7 +68,9 @@ const InstructorsSection = () => {
                                 <Image
                                     src={instructor.companyLogo}
                                     alt="Company logo"
-                                    className="h-6 object-contain"
+                                    width={100}
+                                    height={100}
+                                    className="w-10 h-6 object-contain"
                                 />
                             </div>
                         </motion.div>

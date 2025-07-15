@@ -67,8 +67,10 @@ const Hero = () => {
                 >
                     {/* Replace with an image or animated SVG if you prefer */}
                     <Image
-                        src=" /mainIconsdark.svg"
+                        src="/mainIconsdark.svg"
                         alt="AI Learning Illustration"
+                        width={300}
+                        height={300}
                         className="w-[300px] md:w-full object-cover pointer-events-none "
                     />
                 </motion.div>
