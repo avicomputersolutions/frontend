@@ -23,7 +23,7 @@ const AboutSection = () => {
             About <span className="text-purple-500">BinaryQubit</span>
           </h2>
           <p className="text-gray-300 text-lg leading-relaxed mb-4">
-            BinaryQubit is not just another tech institute — it's a movement to empower learners with job-ready skills that actually matter. Our programs are crafted by industry leaders to ensure every learner becomes career-ready from Day 1.
+            BinaryQubit is not just another tech institute — it&apos;s a movement to empower learners with job-ready skills that actually matter. Our programs are crafted by industry leaders to ensure every learner becomes career-ready from Day 1.
           </p>
           <h2 className="text-xl md:text-2xl font-extrabold leading-tight text-white mb-6">
             From <span className="text-purple-500">Academic Learners </span>
