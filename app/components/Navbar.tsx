@@ -25,14 +25,7 @@ const Navbar = () => {
                     <li><Link href="/collabrations" className="hover:text-purple-400">Collabration</Link></li>
                     <li><Link href="/about" className="hover:text-purple-400">About</Link></li>
                     <li><Link href="/contact" className="hover:text-purple-400">Contact</Link></li>
-                    <button className='button-primary  px-5 py-2 rounded-xl'>
-                        Get Started
-
-                    </button>
-                    <button className='button-primary  px-8 py-2 rounded-xl'>
-                        Login
-
-                    </button>
+                   
                 </ul>
 
                 {/* Mobile Menu Button */}
@@ -49,6 +42,7 @@ const Navbar = () => {
                 <div className="md:hidden absolute top-[65px] text-white left-0 w-full bg-[#030014ee] backdrop-blur-md px-4 py-4 space-y-4 transition-all duration-300">
                     <Link href="/" className="block hover:text-purple-400">Home</Link>
                     <Link href="/courses" className="block hover:text-purple-400">Courses</Link>
+                    <Link href="/collabrations" className="hover:text-purple-400">Collabration</Link>
                     <Link href="/about" className="block hover:text-purple-400">About</Link>
                     <Link href="/contact" className="block hover:text-purple-400">Contact</Link>
                 </div>

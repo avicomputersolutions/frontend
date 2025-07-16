@@ -5,9 +5,10 @@ import Image from 'next/image'
 import { Linkedin } from 'lucide-react'
 
 const teamMembers = [
-  { name: "Avinash Sood", role: "Founder & Lead Instructor", img: "/images/team1.jpg", linkedin: "#" },
-  { name: "Megha Jain", role: "Data Scientist Mentor", img: "/images/team2.jpg", linkedin: "#" },
-  { name: "Rahul Sharma", role: "AI/ML Instructor", img: "/images/team3.jpg", linkedin: "#" },
+  { name: "Anil Fauzdar", role: "COO", img: "/instructors/anil.png", linkedin: "#" },
+
+  { name: "Avinash Kumar", role: "CEO & CTO", img: "/instructors/Avinash.png", linkedin: "#" },
+  { name: "Sajid Khan", role: "Business Head", img: "/instructors/team3.png", linkedin: "#" },
 ]
 
 const OurTeam = () => {
